@@ -14,18 +14,20 @@
 	<script src="./assets/scripts.js"></script>
 </head>
 <body>
-<div id="header">
-	<div class="top-header">
-		<h3 class="name">Nina Carducci</h3>
-		<div class="nav">
-			<ul>
-				<li>À propos</li>
-				<li>Galerie</li>
-				<li>Service</li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</div>
+<div class="top-header">
+	<h3 class="name">Nina Carducci</h3>
+	<div class="nav">
+		<ul>
+			<li><a href="#about">À propos</a></li>
+			<li><a href="#gallery">Galerie</a></li>
+			<li><a href="#services">Service</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt=""></a></li>
+		</ul>
 	</div>
+</div>
+<div id="header">
+
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -54,15 +56,15 @@
 	</div>
 </div>
 <div id="about">
-		<div class="picture left">
-			<img src="./assets/images/nina.png">
-		</div>
-		<div id="about-me">
-			<h3 class="about-me__title">A propos de moi</h3>
-			<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h6>
-			<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
-				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
-		</div>
+	<div class="picture left">
+		<img src="./assets/images/nina.png">
+	</div>
+	<div id="about-me">
+		<h3 class="about-me__title">A propos de moi</h3>
+		<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h6>
+		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
+			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
+	</div>
 </div>
 <div id="gallery">
 	<h3 class="title">Portfolio</h3>
@@ -93,8 +95,8 @@
 	<div class="container">
 		<div class="service">
 			<div class="service__description">
-			<h3>Shooting photo</h3>
-			<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
+				<h3>Shooting photo</h3>
+				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 			</div>
 			<div class="service__price">
 				<h4>350€/demi journée</h4>
@@ -104,23 +106,23 @@
 		</div>
 		<div class="service">
 			<div class="service__description">
-			<h3>Retouches</h3>
-			<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
+				<h3>Retouches</h3>
+				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 			</div>
 			<div class="service__price">
 				<h4>50€/photo</h4>
 				<span>2 AR par photo</span>
-				</div>
+			</div>
 		</div>
 		<div class="service">
 			<div class="service__description">
-			<h3>Album photos</h3>
-			<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
+				<h3>Album photos</h3>
+				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
 			</div>
 			<div class="service__price">
 				<h4>400€ album A4</h4>
-			<span>30 pages recto/verso</span>
-				</div>
+				<span>30 pages recto/verso</span>
+			</div>
 		</div>
 	</div>
 </div>
@@ -144,7 +146,7 @@
 				<input type="email" name="email" id="email">
 				<label>Message</label>
 				<textarea name="message" id="message" cols="30" rows="10"></textarea>
-				<submit>Envoyer</submit>
+				<input type="submit" value="Envoyer"/>
 			</form>
 		</div>
 		<div class="picture right">
