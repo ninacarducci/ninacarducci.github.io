@@ -39,7 +39,8 @@ body {
 }
 
 .social-link img {
-	width: 20px;
+	max-width: 20px;
+    max-height: 20px;
 }
 
 #about {
@@ -68,7 +69,9 @@ body {
 }
 
 .picture img {
-	width: 100%;
+	/* width: 100%; */
+	max-width: 418.69px;
+    max-height: 417.81px;
 
 }
 #about-me {
@@ -91,7 +94,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+		min-height: 100vh;
 }
 .title{
 	text-align: center;
