@@ -1,10 +1,5 @@
 @charset "UTF-8";
-/*!
- * Bootstrap v5.1.3 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -96,56 +91,55 @@ hr:not([size]) {
   height: 1px;
 }
 
-h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+/* Styles communs pour tous les titres */
+#about .about-me__title,
+#gallery .title,
+#services .title,
+#contact h2 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
 }
 
-h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw);
-}
-@media (min-width: 1200px) {
-  h1, .h1 {
-    font-size: 2.5rem;
-  }
-}
-
-h2, .h2 {
-  font-size: calc(1.325rem + 0.9vw);
-}
-@media (min-width: 1200px) {
-  h2, .h2 {
-    font-size: 2rem;
-  }
-}
-
-h3, .h3 {
+/* Styles spécifiques pour les titres de niveau h2 et les classes .title */
+#about .about-me__title,
+#gallery .title,
+#services .title,
+#contact h2 {
   font-size: calc(1.3rem + 0.6vw);
 }
 @media (min-width: 1200px) {
-  h3, .h3 {
+  #about .about-me__title,
+  #gallery .title,
+  #services .title,
+  #contact h2 {
     font-size: 1.75rem;
   }
 }
 
-h4, .h4 {
+/* Styles pour les titres de niveau h3 */
+#about-me h3,
+#services .service__description h3 {
   font-size: calc(1.275rem + 0.3vw);
 }
 @media (min-width: 1200px) {
-  h4, .h4 {
+  #about-me h3,
+  #services .service__description h3 {
     font-size: 1.5rem;
   }
 }
 
-h5, .h5 {
+/* Styles pour les titres de niveau h4 qui remplace l'ancien h5 */
+#services .service__price h4 {
   font-size: 1.25rem;
 }
 
-h6, .h6 {
+/* Styles pour les titres de niveau h6 */
+#about-me .about-me__introduction {
   font-size: 1rem;
 }
+
 
 p {
   margin-top: 0;
