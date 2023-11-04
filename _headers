@@ -19,3 +19,30 @@ Cache-Control: max-age=604800
 *.webp
 Cache-Control: max-age=604800
 
+/assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg
+Cache-Control: max-age=600
+
+/assets/images/camera.png
+Cache-Control: max-age=600
+
+/assets/images/nina.webp
+Cache-Control: max-age=600
+
+/assets/bootstrap/bootstrap.bundle.js
+Cache-Control: max-age=600
+
+/assets/bootstrap/bootstrap.css
+Cache-Control: max-age=600
+
+/assets/maugallery.min.js
+Cache-Control: max-age=600
+
+/assets/styles.v1.css
+Cache-Control: max-age=600
+
+/assets/images/instagram.webp
+Cache-Control: max-age=600
+
+/assets/scripts.js
+Cache-Control: max-age=600
+
