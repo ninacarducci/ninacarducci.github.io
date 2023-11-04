@@ -2,12 +2,15 @@
 body {
     max-width: 1920px;
     margin: auto;
+
+}
+*{
     font-family: 'Inter', sans-serif; 
 }
 
-h1, h2, h3 {
+/* h1, h2, h3 {
     font-family: 'Spectral', serif;
-}
+} */
 
 
 .top-header {
@@ -23,6 +26,7 @@ h1, h2, h3 {
 
 .top-header .name {
     font-size: 26px;
+    margin: 0;
 }
 
 
