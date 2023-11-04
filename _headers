@@ -29,20 +29,20 @@ Cache-Control: max-age=600
 Cache-Control: max-age=600
 
 /assets/bootstrap/bootstrap.bundle.js
-Cache-Control: max-age=600
+Cache-Control: max-age=400
 
 /assets/bootstrap/bootstrap.css
-Cache-Control: max-age=600
+Cache-Control: max-age=400
 
 /assets/maugallery.min.js
-Cache-Control: max-age=600
+Cache-Control: max-age=400
 
 /assets/styles.v1.css
-Cache-Control: max-age=600
+Cache-Control: max-age=400
 
 /assets/images/instagram.webp
-Cache-Control: max-age=600
+Cache-Control: max-age=400
 
 /assets/scripts.js
-Cache-Control: max-age=600
+Cache-Control: max-age=400
 
