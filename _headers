@@ -1,0 +1,43 @@
+*.html
+Cache-Control: max-age=3600
+
+*.css
+Cache-Control: max-age=604800
+
+*.js
+Cache-Control: max-age=604800
+
+*.jpg
+Cache-Control: max-age=604800
+
+*.jpeg
+Cache-Control: max-age=604800
+
+*.png
+Cache-Control: max-age=604800
+
+*.webp
+Cache-Control: max-age=600
+
+
+/assets/images/nina.webp
+Cache-Control: max-age=600
+
+/assets/bootstrap/bootstrap.bundle.js
+Cache-Control: max-age=600
+
+/assets/bootstrap/bootstrap.css
+Cache-Control: max-age=600
+
+/assets/maugallery.min.js
+Cache-Control: max-age=600
+
+/assets/styles.v1.css
+Cache-Control: max-age=600
+
+/assets/images/instagram.webp
+Cache-Control: max-age=600
+
+/assets/scripts.js
+Cache-Control: max-age=600
+

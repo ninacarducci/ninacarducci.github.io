@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-uglify": "^3.0.2",
+    "uglify-js": "^3.17.4"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1"
+  },
+  "name": "ninacarducci.github.io",
+  "description": "Mon portfolio de photographe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
