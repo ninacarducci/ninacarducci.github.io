@@ -91,7 +91,7 @@ hr:not([size]) {
   height: 1px;
 }
 
-/* Styles communs pour tous les titres */
+
 #about .about-me__title,
 #gallery .title,
 #services .title,
@@ -102,7 +102,7 @@ hr:not([size]) {
   line-height: 1.2;
 }
 
-/* Styles spécifiques pour les titres de niveau h2 et les classes .title */
+
 #about .about-me__title,
 #gallery .title,
 #services .title,
@@ -118,7 +118,7 @@ hr:not([size]) {
   }
 }
 
-/* Styles pour les titres de niveau h3 */
+
 #about-me h3,
 #services .service__description h3 {
   font-size: calc(1.275rem + 0.3vw);
@@ -130,12 +130,12 @@ hr:not([size]) {
   }
 }
 
-/* Styles pour les titres de niveau h4 qui remplace l'ancien h5 */
+
 #services .service__price h4 {
   font-size: 1.25rem;
 }
 
-/* Styles pour les titres de niveau h6 */
+
 #about-me .about-me__introduction {
   font-size: 1rem;
 }
