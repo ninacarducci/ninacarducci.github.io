@@ -17,13 +17,8 @@ Cache-Control: max-age=604800
 Cache-Control: max-age=604800
 
 *.webp
-Cache-Control: max-age=604800
+Cache-Control: max-age=604
 
-/assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg
-Cache-Control: max-age=600
-
-/assets/images/camera.png
-Cache-Control: max-age=600
 
 /assets/images/nina.webp
 Cache-Control: max-age=600
