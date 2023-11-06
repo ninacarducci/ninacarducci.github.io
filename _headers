@@ -17,7 +17,7 @@ Cache-Control: max-age=604800
 Cache-Control: max-age=604800
 
 *.webp
-Cache-Control: max-age=604
+Cache-Control: max-age=600
 
 
 /assets/images/nina.webp
