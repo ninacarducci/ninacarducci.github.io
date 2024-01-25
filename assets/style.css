@@ -363,3 +363,8 @@ input[type="submit"] {
     width: 80%;
   }
 }
+
+.taille-slideshow {
+  width: 100%;
+  height: auto;
+}
