@@ -21,7 +21,30 @@
       name="description"
       content="Nina Carducci, photographe à Bordeaux, capture moments précieux avec shootings, retouches et albums personnalisés : concerts, entreprises, mariages, portraits"
     />
-
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Nina Carducci",
+        "image": "https://davidandaman.github.io/ninacarducci/assets/images/nina.jpg",
+        "@id": "",
+        "url": "https://davidandaman.github.io/ninacarducci/assets/images/nina.jpg",
+        "telephone": "+33 5 56 67 78 89",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "postalCode": "33200",
+          "addressCountry": "FR"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "19:00"
+        }
+      }
+    </script>
     <!-- Googlee tag (gtag.js) -->
     <script
       async
@@ -35,33 +58,6 @@
       gtag("js", new Date());
 
       gtag("config", "G-2TM7P3TTEJ");
-    </script>
-
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org/",
-        "@type": "Organization",
-        "name": "Nina Carducci",
-        "description": "Photographe professionnelle a Bordeaux et en Nouvelle Aquitaine",
-        "url": "https://davidandaman.github.io/ninacarducci/",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+33 5 56 67 78 89",
-          "email": "nina.carducci@ninacarducci.com"
-        },
-        "image": [
-          {
-            "@type": "ImageObject",
-            "url": "https://davidandaman.github.io/ninacarducci/assets/images/nina.jpg",
-            "caption": "Portrait de Nina Carducci"
-          },
-          {
-            "@type": "ImageObject",
-            "url": "https://davidandaman.github.io/ninacarducci/assets/images/gallery/concerts/austin_neill_concert.jpg",
-            "caption": "Paysage photographié par Nina Carducci"
-          }
-        ]
-      }
     </script>
   </head>
   <body>
