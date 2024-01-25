@@ -254,6 +254,7 @@ input[type="submit"] {
   #about,
   #contact .container {
     align-items: center;
+    width: 100%;
   }
   .about-me__title {
     margin-top: 0;
@@ -268,6 +269,7 @@ input[type="submit"] {
 @media all and (max-width: 1000px) {
   #about {
     flex-direction: column;
+    width: 100%;
   }
   .picture {
     width: 50%;
@@ -352,6 +354,7 @@ input[type="submit"] {
   #contact {
     padding-inline: 2em;
     padding-block: 2em;
+    width: 100%;
   }
   form {
     width: 100%;
