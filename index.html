@@ -22,14 +22,6 @@
       name="description"
       content="Nina Carducci, photographe à Bordeaux, capture moments précieux avec shootings, retouches et albums personnalisés : concerts, entreprises, mariages, portraits"
     />
-    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <script src="./assets/maugallery.js"></script>
-    <script src="./assets/scripts.js"></script>
 
     <!-- Googlee tag (gtag.js) -->
     <script
@@ -65,7 +57,7 @@
   </head>
   <body>
     <div class="top-header">
-      <h1 class="name">Nina CarducciO</h1>
+      <h1 class="name">Nina Carducci</h1>
       <div class="nav">
         <ul>
           <li><a href="#about">À propos</a></li>
@@ -81,7 +73,6 @@
               <img
                 src="assets/images/instagram.png"
                 alt="Instagram de Nina Carducci"
-                loading="lazy"
               />
               <span class="visually-hidden">Instagram de Nina Carducci</span>
             </a>
@@ -123,7 +114,6 @@
               src="./assets/images/slider/ryoji_iwata_entreprises.jpg"
               alt="Photographe pour les entreprises"
               class="d-block w-100"
-              alt="..."
               loading="lazy"
             />
           </div>
@@ -132,7 +122,6 @@
               src="./assets/images/slider/nicholas_green_concerts.jpg"
               alt="Les concerts en photo"
               class="d-block w-100"
-              alt="..."
               loading="lazy"
             />
           </div>
@@ -141,7 +130,6 @@
               src="./assets/images/slider/edward_cisneros_mariage.jpg"
               alt="Photos de mariage"
               class="d-block w-100"
-              alt="..."
               loading="lazy"
             />
           </div>
@@ -168,11 +156,7 @@
     </div>
     <div id="about">
       <div class="picture left">
-        <img
-          src="./assets/images/nina.jpg"
-          alt="Nina Carducci"
-          loading="lazy"
-        />
+        <img src="./assets/images/nina.jpg" alt="Nina Carducci" />
       </div>
       <div id="about-me">
         <h2 class="about-me__title">A propos de moi</h2>
@@ -204,8 +188,62 @@
             alt="Concert de Aaron Paul"
             loading="lazy"
           />
-          <!-- Ajoutez l'attribut loading="lazy" aux autres images de la galerie -->
-          <!-- ... -->
+          <img
+            data-gallery-tag="Entreprises"
+            class="gallery-item"
+            src="./assets/images/gallery/entreprise/ali_morshedlou_entreprise.jpg"
+            alt="Entreprise - Ali Morshelou"
+            loading="lazy"
+          />
+          <img
+            data-gallery-tag="Entreprises"
+            class="gallery-item"
+            src="./assets/images/gallery/entreprise/jason_goodman_entreprise.jpg"
+            alt="Entreprise - Jason Goodman"
+            loading="lazy"
+          />
+          <img
+            data-gallery-tag="Mariages"
+            class="gallery-item"
+            src="./assets/images/gallery/mariage/hannah_busing_mariage.jpg"
+            alt="Mariage - Hannah Busing"
+            loading="lazy"
+          />
+          <img
+            data-gallery-tag="Portrait"
+            class="gallery-item"
+            src="./assets/images/gallery/portraits/ade_tunji_portrait.jpg"
+            alt="Portrait - Ade Tunji"
+            loading="lazy"
+          />
+          <img
+            data-gallery-tag="Mariages"
+            class="gallery-item"
+            src="./assets/images/gallery/mariage/jakob_owens_mariage.jpg"
+            alt="Mariage - Jakob Owens"
+            loading="lazy"
+          />
+          <img
+            data-gallery-tag="Portrait"
+            class="gallery-item"
+            src="./assets/images/gallery/portraits/nino_van_prattenburg_portrait.jpg"
+            alt="Portrait - Nino Van Pattenburg"
+            loading="lazy"
+          />
+          <img
+            data-gallery-tag="Concert"
+            class="gallery-item"
+            src="./assets/images/gallery/concerts/austin_neill_concert.jpg"
+            alt="Concert de Austin Neill"
+            loading="lazy"
+          />
+          <img
+            data-gallery-tag="Entreprises"
+            class="gallery-item"
+            src="./assets/images/gallery/entreprise/mateus_campos_felipe_entreprise.jpg"
+            alt="Entreprise - Mateus Campos Felipe"
+            loading="lazy"
+          />
         </div>
       </div>
       <div class="quote">
@@ -313,5 +351,14 @@
         </div>
       </div>
     </div>
+
+    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/maugallery.js"></script>
+    <script src="./assets/scripts.js"></script>
   </body>
 </html>
