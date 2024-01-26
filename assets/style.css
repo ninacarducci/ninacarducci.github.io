@@ -65,6 +65,7 @@ h4 {
 
 .social-link img {
   width: 20px;
+  height: auto;
 }
 
 #about {
@@ -95,6 +96,7 @@ h4 {
 
 .picture img {
   width: 100%;
+  height: auto;
 }
 #about-me {
   flex: 2;
@@ -396,6 +398,11 @@ input[type="submit"] {
 }
 
 img {
+  width: 100%;
+  height: auto;
+}
+
+.slide-size {
   width: 100%;
   height: auto;
 }
