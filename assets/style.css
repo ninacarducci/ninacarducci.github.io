@@ -7,6 +7,30 @@ body {
   font-style: normal;
 }
 
+a {
+  font-size: 1em;
+}
+
+p {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
 .top-header {
   background-color: white;
   position: sticky;
@@ -220,6 +244,11 @@ h3.quote__text {
 .form-container {
   flex: 2;
 }
+
+.form-container h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+
 form {
   display: flex;
   flex-direction: column;
