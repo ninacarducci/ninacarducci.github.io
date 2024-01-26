@@ -107,11 +107,13 @@ h2.title {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #beb45a;
+  background-color: #77713b;
   border-radius: 0;
+  cursor: pointer;
 }
 .nav-pills .nav-link {
   color: #000;
+  cursor: pointer;
 }
 .item-column {
   position: relative;
