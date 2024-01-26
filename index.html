@@ -12,12 +12,33 @@
     
 
     <link rel="stylesheet" href="./assets/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-      rel="stylesheet"
-    />
+
+    <!-- Préconnexion pour les polices essentielles -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+<!-- Liens pour les polices essentielles (Inter et Spectral) -->
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet" />
+
+<!-- Script pour différer le chargement des polices non essentielles -->
+<script>
+  // Charger dynamiquement les polices non essentielles après le rendu initial
+  function loadNonEssentialFonts() {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'URL_DE_LA_FEUILLE_DE_STYLE_DES_POLICES_NON_ESSENTIELLES';
+    document.head.appendChild(link);
+  }
+
+  // Appeler la fonction pour charger les polices non essentielles après un délai (par exemple, 2 secondes)
+  setTimeout(loadNonEssentialFonts, 2000); // ajustez le délai selon vos besoins
+</script>
+
+
+
+
+
+
     <meta charset="UTF-8" />
     <meta name="robots" content="index, follow" />
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
