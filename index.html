@@ -23,44 +23,6 @@
       name="description"
       content="Nina Carducci, photographe à Bordeaux, capture moments précieux avec shootings, retouches et albums personnalisés : concerts, entreprises, mariages, portraits"
     />
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "Nina Carducci",
-        "image": "https://davidandaman.github.io/ninacarducci/assets/images/nina.jpg",
-        "@id": "",
-        "url": "https://davidandaman.github.io/ninacarducci/assets/images/nina.jpg",
-        "telephone": "+33 5 56 67 78 89",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "68 avenue Alsace-Lorraine",
-          "addressLocality": "Bordeaux",
-          "postalCode": "33200",
-          "addressCountry": "FR"
-        },
-        "openingHoursSpecification": {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-          "opens": "09:00",
-          "closes": "19:00"
-        }
-      }
-    </script>
-    <!-- Googlee tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-2TM7P3TTEJ"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-2TM7P3TTEJ");
-    </script>
   </head>
   <body>
     <div class="top-header">
@@ -382,4 +344,28 @@
   ></script>
   <script src="./assets/maugallery.js"></script>
   <script src="./assets/scripts.js"></script>
+  <script type="application/ld+json" defer>
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Nina Carducci",
+      "image": "https://davidandaman.github.io/ninacarducci/assets/images/nina.jpg",
+      "@id": "",
+      "url": "https://davidandaman.github.io/ninacarducci/assets/images/nina.jpg",
+      "telephone": "+33 5 56 67 78 89",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "68 avenue Alsace-Lorraine",
+        "addressLocality": "Bordeaux",
+        "postalCode": "33200",
+        "addressCountry": "FR"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "19:00"
+      }
+    }
+  </script>
 </html>
