@@ -7,19 +7,7 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- optionally increase loading priority -->
-    <link
-      rel="preload"
-      as="style"
-      href="./assets/bootstrap/bootstrap.min.css"
-    />
-
-    <link
-      rel="stylesheet"
-      media="print"
-      onload="this.onload=null;this.removeAttribute('media');"
-      href="./assets/bootstrap/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
 
     <link rel="stylesheet" href="./assets/style.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -141,13 +129,15 @@
               srcset="
                 ./assets/images/slider/ryoji_iwata_entreprises_320w.jpg  320w,
                 ./assets/images/slider/ryoji_iwata_entreprises_480w.jpg  480w,
+                ./assets/images/slider/ryoji_iwata_entreprises.jpg       640w,
                 ./assets/images/slider/ryoji_iwata_entreprises.jpg      1200w
               "
               sizes="(max-width: 320px) 280px,
-                   (max-width: 480px) 440px,
-                   1200px"
+                 (max-width: 480px) 440px,
+                 (max-width: 640px) 600px,
+                 1200px"
               alt="Photographe pour les entreprises"
-              loading="lazy"
+              loading="preload"
             />
           </div>
           <div class="carousel-item">
