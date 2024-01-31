@@ -6,7 +6,26 @@
       content="WN0NmJk08GlIcJ0j1fZwCbhXh35hNISr5V26K7bGfgA"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
+
+    <!-- optionally increase loading priority -->
+    <link
+      rel="preload"
+      as="style"
+      href="./assets/bootstrap/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.onload=null;this.removeAttribute('media');"
+      href="./assets/bootstrap/bootstrap.min.css"
+    />
+
+    <!-- no-JS fallback -->
+    <noscript>
+      <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
+    </noscript>
+
     <link rel="stylesheet" href="./assets/style.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
