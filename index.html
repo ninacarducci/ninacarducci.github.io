@@ -140,7 +140,9 @@
             <picture>
               <source
                 media="(max-width: 480px)"
-                srcset="./assets/images/slider/nicholas_green_concerts_320w.jpg"
+                srcset="
+                  ./assets/images/slider/nicholas_green_concerts_320w.jpg 320w
+                "
               />
               <img
                 src="./assets/images/slider/nicholas_green_concerts.jpg"
@@ -153,11 +155,19 @@
             <picture>
               <source
                 media="(max-width: 480px)"
-                srcset="./assets/images/slider/edward_cisneros_mariage.jpg 480w"
+                srcset="
+                  ./assets/images/slider/edward_cisneros_mariage_480w.jpg 480w
+                "
+              />
+              <img
+                src="./assets/images/slider/edward_cisneros_mariage.jpg"
+                alt="Photos de mariage"
+                loading="preload"
               />
             </picture>
           </div>
         </div>
+
         <button
           class="carousel-control-prev"
           type="button"
