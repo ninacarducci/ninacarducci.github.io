@@ -83,7 +83,7 @@
             >
               <img
                 src="assets/images/instagram.png"
-                alt="Instagram de Nina Carducci"
+                alt="Suivez-moi sur Instagram"
                 loading="preload"
               />
               <span class="visually-hidden">Instagram de Nina Carducci</span>
@@ -122,31 +122,40 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img
-              src="./assets/images/slider/ryoji_iwata_entreprises.jpg"
-              alt="Photographe pour les entreprises"
-              class="slide-size"
-              loading="preload"
-              style="width: 100%; height: 100%"
-            />
+            <picture>
+              <source
+                media="(max-width: 480px)"
+                srcset="
+                  ./assets/images/slider/ryoji_iwata_entreprises_480w.jpg 480w
+                "
+              />
+              <img
+                src="./assets/images/slider/ryoji_iwata_entreprises.jpg"
+                alt="Les concerts en photo"
+                loading="preload"
+              />
+            </picture>
           </div>
           <div class="carousel-item">
-            <img
-              src="./assets/images/slider/nicholas_green_concerts.jpg"
-              alt="Les concerts en photo"
-              class="slide-size"
-              loading="preload"
-              style="width: 100%; height: 100%"
-            />
+            <picture>
+              <source
+                media="(max-width: 480px)"
+                srcset="./assets/images/slider/nicholas_green_concerts_320w.jpg"
+              />
+              <img
+                src="./assets/images/slider/nicholas_green_concerts.jpg"
+                alt="Les concerts en photo"
+                loading="preload"
+              />
+            </picture>
           </div>
           <div class="carousel-item">
-            <img
-              src="./assets/images/slider/edward_cisneros_mariage.jpg"
-              alt="Photos de mariage"
-              class="slide-size"
-              loading="preload"
-              style="width: 100%; height: 100%"
-            />
+            <picture>
+              <source
+                media="(max-width: 480px)"
+                srcset="./assets/images/slider/edward_cisneros_mariage.jpg 480w"
+              />
+            </picture>
           </div>
         </div>
         <button
