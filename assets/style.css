@@ -98,6 +98,7 @@ h4 {
   width: 100%;
   height: auto;
 }
+
 #about-me {
   flex: 2;
   width: 100%;
@@ -109,16 +110,22 @@ h4 {
   margin-bottom: 60px;
   font-size: 30px;
 }
+.about-me__introduction {
+  width: 60%;
+}
+
 h3.about-me__introduction {
   font-family: "Spectral";
   font-weight: 800;
   font-style: italic;
-  width: 60%;
   font-size: 1rem;
 }
 
-#about-me p {
+#about-me {
   width: 80%;
+}
+
+#about-me p {
   font-size: 14px;
 }
 
