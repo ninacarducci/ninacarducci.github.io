@@ -3,3 +3,6 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+
+# fichiers dossiers bootstrap non essentiels
+/bootstrap/
