@@ -372,5 +372,14 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+
+	.carousel-inner img {
+		object-fit: cover; 
+		height: 150px;
+	}
+
+	.gallery-item {
+		width: 650px;
+	}
 }
 
