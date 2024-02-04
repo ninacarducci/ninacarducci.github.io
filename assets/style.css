@@ -370,16 +370,12 @@ input[type="submit"] {
 		width: 100%;
 	}
 	.picture {
-		width: 80%;
+		max-width: 300px;
 	}
 
 	.carousel-inner img {
 		object-fit: cover; 
 		height: 150px;
-	}
-
-	.gallery-item {
-		width: 650px;
 	}
 }
 
