@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Allow: /images/gallery/
+Sitemap: https://ninacarducci.github.io//sitemap.xml
