@@ -1,0 +1,73 @@
+{
+    "@context": "http://schema.org",
+    "@type": "ImageGallery",
+    "name": "Galerie de photos",
+    "description": "Une collection de superbes photos",
+    "images": [
+      {
+        "@type": "ImageObject",
+        "name": "Aaron Paul sur scène",
+        "description": "Concert du changeur aaron paul, bras levés du public en premier plan",
+        "contentUrl": "./assets/images/gallery/concerts/concert_aaron_paul.webp",
+        "license": "Tous droits réservés"
+      },
+      {
+        "@type": "ImageObject",
+        "name": "Ali Morshedlou portrait",
+        "description": "Portrait d'Ali Morshedlou en costume",
+        "contentUrl": "./assets/images/gallery/entreprise/homme_affaire_ali_morshedlou.webp",
+        "license": "Tous droits réservés"
+      } , 
+      {
+        "@type": "ImageObject",
+        "name": "Réunion d'entreprise",
+        "description": "deux femmes en réunion en entreprise autour d'une table et qui rient",
+        "contentUrl": "./assets/images/gallery/entreprise/femmes_entreprise_jason_goodman.webp",
+        "license": "Tous droits réservés"
+      } , 
+      {
+        "@type": "ImageObject",
+        "name": "Hannah Busing wedding day",
+        "description": "Gros plan sur quatre mains qui se rejoignent, deux par deux, au cours d'une cérémonie de mariage",
+        "contentUrl": "./assets/images/gallery/mariage/wedding_hands_hannah_busing.webp",
+        "license": "Tous droits réservés"
+      } ,
+      {
+        "@type": "ImageObject",
+        "name": "Ade Tunji portrait",
+        "description": "Portrait d'un homme aux yeux fermés",
+        "contentUrl": "./assets/images/gallery/portraits/portrait_ade_tunji.webp",
+        "license": "Tous droits réservés"
+      } , 
+      {
+        "@type": "ImageObject",
+        "name": "Kob Owens wedding day",
+        "description": "Un couple de mariés sont dans un jardin bras dessus dessous et rient ensemble",
+        "contentUrl": "./assets/images/gallery/mariage/wedding_kob_owens.webp",
+        "license": "Tous droits réservés"
+      } , 
+      {
+        "@type": "ImageObject",
+        "name": "portrait",
+        "description": "Portrait d'une jeune femme pensive derrière un grillage",
+        "contentUrl": "./assets/images/gallery/portraits/portrait_nino_van_prattenburg.webp",
+        "license": "Tous droits réservés"
+      } , 
+      {
+        "@type": "ImageObject",
+        "name": "Austin Neill singer",
+        "description": "Le chanteur Austin Neill sur scène",
+        "contentUrl": "./assets/images/gallery/concerts/concert_austin_neill.webp",
+        "license": "Tous droits réservés"
+      } , 
+      {
+        "@type": "ImageObject",
+        "name": "lawyer woman at work",
+        "description": "une femme au bureau en entreprise rit",
+        "contentUrl": "./assets/images/gallery/entreprise/femme_bureau_entreprise_mateus_campos_felipe.webp",
+        "license": "Tous droits réservés"
+      } 
+
+    ]
+  }
+  
